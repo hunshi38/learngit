@@ -1,0 +1,14 @@
+var postTeamInfo = function(data) {
+					$.ajax({
+					url: "/MyRen/user/publicSubmit",
+					data: data,
+					type: "post",
+					contentType: "application/json",
+					success: function(dat) {
+						// 根据返回的数据判断报名成功或失败,同后端沟通返回的数据
+						var obj = dat.parseJSON(); 
+						Showbo.Msg.alert(obj.msg)
+
+					},
+					
+详情页的背景图片
