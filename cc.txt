@@ -1,4 +1,4 @@
-var postTeamInfo = function(data) {
+﻿var postTeamInfo = function(data) {
 					$.ajax({
 					url: "/MyRen/user/publicSubmit",
 					data: data,
@@ -12,3 +12,6 @@ var postTeamInfo = function(data) {
 					},
 					
 详情页的背景图片
+
+
+百变宝贝
